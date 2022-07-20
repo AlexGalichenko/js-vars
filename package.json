@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --reporters=default --reporters=jest-junit",
     "build": "echo ok"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AlexGalichenko/js-vars#readme",
   "dependencies": {
-    "jest": "^28.1.3"
+    "jest": "^28.1.3",
+    "jest-junit": "^14.0.0"
   }
 }
